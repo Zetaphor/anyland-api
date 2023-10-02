@@ -1,0 +1,1994 @@
+{
+	"info": {
+		"_postman_id": "de0829c7-1407-4646-807a-375e68d66c56",
+		"name": "Anyland Server",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "418303",
+		"_collection_link": "https://www.postman.com/solar-spaceship-436264/workspace/anyland/collection/418303-de0829c7-1407-4646-807a-375e68d66c56?action=share&source=collection_link&creator=418303"
+	},
+	"item": [
+		{
+			"name": "Forums",
+			"item": [
+				{
+					"name": "GetForum",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"type": "text",
+								"value": "application/x-www-form-urlencoded"
+							},
+							{
+								"key": "User-Agent",
+								"type": "text",
+								"value": "UnityPlayer/2018.1.0f2 (UnityWebRequest/1.0, libcurl/7.51.0-DEV)"
+							},
+							{
+								"key": "Accept",
+								"type": "text",
+								"value": "*/*"
+							},
+							{
+								"key": "Accept-Encoding",
+								"type": "text",
+								"value": "identity"
+							},
+							{
+								"key": "X-Unity-Version",
+								"type": "text",
+								"value": "2018.1.0f2"
+							},
+							{
+								"key": "Cookie",
+								"type": "text",
+								"value": "{{cookie}}"
+							}
+						],
+						"url": {
+							"raw": "http://app.anyland.com/forum/forum/5846f540e8593a971395c0aa",
+							"protocol": "http",
+							"host": [
+								"app",
+								"anyland",
+								"com"
+							],
+							"path": [
+								"forum",
+								"forum",
+								"5846f540e8593a971395c0aa"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "AddForumComment",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"type": "text",
+								"value": "application/x-www-form-urlencoded"
+							},
+							{
+								"key": "User-Agent",
+								"type": "text",
+								"value": "UnityPlayer/2018.1.0f2 (UnityWebRequest/1.0, libcurl/7.51.0-DEV)"
+							},
+							{
+								"key": "Accept",
+								"type": "text",
+								"value": "*/*"
+							},
+							{
+								"key": "Accept-Encoding",
+								"type": "text",
+								"value": "identity"
+							},
+							{
+								"key": "X-Unity-Version",
+								"type": "text",
+								"value": "2018.1.0f2"
+							},
+							{
+								"key": "Cookie",
+								"type": "text",
+								"value": "{{cookie}}"
+							}
+						],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "threadId",
+									"value": "5b7b8c12ef5391490eab895c",
+									"type": "text"
+								},
+								{
+									"key": "commentText",
+									"value": "test again",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "http://app.anyland.com/forum/comment/new",
+							"protocol": "http",
+							"host": [
+								"app",
+								"anyland",
+								"com"
+							],
+							"path": [
+								"forum",
+								"comment",
+								"new"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GetForumThread",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"type": "text",
+								"value": "application/x-www-form-urlencoded"
+							},
+							{
+								"key": "User-Agent",
+								"type": "text",
+								"value": "UnityPlayer/2018.1.0f2 (UnityWebRequest/1.0, libcurl/7.51.0-DEV)"
+							},
+							{
+								"key": "Accept",
+								"type": "text",
+								"value": "*/*"
+							},
+							{
+								"key": "Accept-Encoding",
+								"type": "text",
+								"value": "identity"
+							},
+							{
+								"key": "X-Unity-Version",
+								"type": "text",
+								"value": "2018.1.0f2"
+							},
+							{
+								"key": "Cookie",
+								"type": "text",
+								"value": "{{cookie}}"
+							}
+						],
+						"url": {
+							"raw": "http://app.anyland.com/forum/thread/58481f0f1fb934781143f2f2",
+							"protocol": "http",
+							"host": [
+								"app",
+								"anyland",
+								"com"
+							],
+							"path": [
+								"forum",
+								"thread",
+								"58481f0f1fb934781143f2f2"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GetFavoriteForums",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"type": "text",
+								"value": "application/x-www-form-urlencoded"
+							},
+							{
+								"key": "User-Agent",
+								"type": "text",
+								"value": "UnityPlayer/2018.1.0f2 (UnityWebRequest/1.0, libcurl/7.51.0-DEV)"
+							},
+							{
+								"key": "Accept",
+								"type": "text",
+								"value": "*/*"
+							},
+							{
+								"key": "Accept-Encoding",
+								"type": "text",
+								"value": "identity"
+							},
+							{
+								"key": "X-Unity-Version",
+								"type": "text",
+								"value": "2018.1.0f2"
+							},
+							{
+								"key": "Cookie",
+								"value": "{{cookie}}",
+								"description": "Needs to be captured",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "http://app.anyland.com/forum/favorites",
+							"protocol": "http",
+							"host": [
+								"app",
+								"anyland",
+								"com"
+							],
+							"path": [
+								"forum",
+								"favorites"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Areas",
+			"item": [
+				{
+					"name": "LoadArea",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"value": "application/x-www-form-urlencoded",
+								"type": "text"
+							},
+							{
+								"key": "User-Agent",
+								"value": "UnityPlayer/2018.1.0f2 (UnityWebRequest/1.0, libcurl/7.51.0-DEV)",
+								"type": "text"
+							},
+							{
+								"key": "Accept",
+								"value": "*/*",
+								"type": "text"
+							},
+							{
+								"key": "Accept-Encoding",
+								"value": "identity",
+								"type": "text"
+							},
+							{
+								"key": "X-Unity-Version",
+								"value": "2018.1.0f2",
+								"type": "text"
+							},
+							{
+								"key": "Cookie",
+								"value": "{{cookie}}",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "areaId",
+									"value": "5a923c5bff4ade85133a430b",
+									"type": "text"
+								},
+								{
+									"key": "isPrivate",
+									"value": "False",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "http://app.anyland.com/area/load",
+							"protocol": "http",
+							"host": [
+								"app",
+								"anyland",
+								"com"
+							],
+							"path": [
+								"area",
+								"load"
+							]
+						},
+						"description": "Appears to run every 15 seconds"
+					},
+					"response": []
+				},
+				{
+					"name": "Search",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"type": "text",
+								"value": "application/x-www-form-urlencoded"
+							},
+							{
+								"key": "User-Agent",
+								"type": "text",
+								"value": "UnityPlayer/2018.1.0f2 (UnityWebRequest/1.0, libcurl/7.51.0-DEV)"
+							},
+							{
+								"key": "Accept",
+								"type": "text",
+								"value": "*/*"
+							},
+							{
+								"key": "Accept-Encoding",
+								"type": "text",
+								"value": "identity"
+							},
+							{
+								"key": "X-Unity-Version",
+								"type": "text",
+								"value": "2018.1.0f2"
+							},
+							{
+								"key": "Cookie",
+								"type": "text",
+								"value": "{{cookie}}"
+							}
+						],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "term",
+									"value": "test",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "http://app.anyland.com/area/search",
+							"protocol": "http",
+							"host": [
+								"app",
+								"anyland",
+								"com"
+							],
+							"path": [
+								"area",
+								"search"
+							]
+						},
+						"description": "Appears to run every 15 seconds"
+					},
+					"response": []
+				},
+				{
+					"name": "LoadArea (By Name)",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"type": "text",
+								"value": "application/x-www-form-urlencoded"
+							},
+							{
+								"key": "User-Agent",
+								"type": "text",
+								"value": "UnityPlayer/2018.1.0f2 (UnityWebRequest/1.0, libcurl/7.51.0-DEV)"
+							},
+							{
+								"key": "Accept",
+								"type": "text",
+								"value": "*/*"
+							},
+							{
+								"key": "Accept-Encoding",
+								"type": "text",
+								"value": "identity"
+							},
+							{
+								"key": "X-Unity-Version",
+								"type": "text",
+								"value": "2018.1.0f2"
+							},
+							{
+								"key": "Cookie",
+								"value": "{{cookie}}",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "areaUrlName",
+									"value": "ztestcreatedarea",
+									"type": "text"
+								},
+								{
+									"key": "isPrivate",
+									"value": "False",
+									"type": "text",
+									"disabled": true
+								}
+							]
+						},
+						"url": {
+							"raw": "http://app.anyland.com/area/load",
+							"protocol": "http",
+							"host": [
+								"app",
+								"anyland",
+								"com"
+							],
+							"path": [
+								"area",
+								"load"
+							]
+						},
+						"description": "Appears to run every 15 seconds"
+					},
+					"response": []
+				},
+				{
+					"name": "GetAreaLists",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"type": "text",
+								"value": "application/x-www-form-urlencoded"
+							},
+							{
+								"key": "User-Agent",
+								"type": "text",
+								"value": "UnityPlayer/2018.1.0f2 (UnityWebRequest/1.0, libcurl/7.51.0-DEV)"
+							},
+							{
+								"key": "Accept",
+								"type": "text",
+								"value": "*/*"
+							},
+							{
+								"key": "Accept-Encoding",
+								"type": "text",
+								"value": "identity"
+							},
+							{
+								"key": "X-Unity-Version",
+								"type": "text",
+								"value": "2018.1.0f2"
+							},
+							{
+								"key": "Cookie",
+								"value": "{{cookie}}",
+								"description": "}",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "subsetsize",
+									"value": "30",
+									"type": "text"
+								},
+								{
+									"key": "setsize",
+									"value": "300",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "http://app.anyland.com/area/lists",
+							"protocol": "http",
+							"host": [
+								"app",
+								"anyland",
+								"com"
+							],
+							"path": [
+								"area",
+								"lists"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GetAreaInfo",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"type": "text",
+								"value": "application/x-www-form-urlencoded"
+							},
+							{
+								"key": "User-Agent",
+								"type": "text",
+								"value": "UnityPlayer/2018.1.0f2 (UnityWebRequest/1.0, libcurl/7.51.0-DEV)"
+							},
+							{
+								"key": "Accept",
+								"type": "text",
+								"value": "*/*"
+							},
+							{
+								"key": "Accept-Encoding",
+								"type": "text",
+								"value": "identity"
+							},
+							{
+								"key": "X-Unity-Version",
+								"type": "text",
+								"value": "2018.1.0f2"
+							},
+							{
+								"key": "Cookie",
+								"value": "{{cookie}}",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "areaId",
+									"value": "5a923c5bff4ade85133a430b",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "http://app.anyland.com/area/info",
+							"protocol": "http",
+							"host": [
+								"app",
+								"anyland",
+								"com"
+							],
+							"path": [
+								"area",
+								"info"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GetSubAreas",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"type": "text",
+								"value": "application/x-www-form-urlencoded"
+							},
+							{
+								"key": "User-Agent",
+								"type": "text",
+								"value": "UnityPlayer/2018.1.0f2 (UnityWebRequest/1.0, libcurl/7.51.0-DEV)"
+							},
+							{
+								"key": "Accept",
+								"type": "text",
+								"value": "*/*"
+							},
+							{
+								"key": "Accept-Encoding",
+								"type": "text",
+								"value": "identity"
+							},
+							{
+								"key": "X-Unity-Version",
+								"type": "text",
+								"value": "2018.1.0f2"
+							},
+							{
+								"key": "Cookie",
+								"value": "{{cookie}}",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "areaId",
+									"value": "5a923c5bff4ade85133a430b",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "http://app.anyland.com/area/getsubareas",
+							"protocol": "http",
+							"host": [
+								"app",
+								"anyland",
+								"com"
+							],
+							"path": [
+								"area",
+								"getsubareas"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Create Area",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/x-www-form-urlencoded",
+								"type": "text"
+							},
+							{
+								"key": "User-Agent",
+								"value": "UnityPlayer/2018.1.0f2 (UnityWebRequest/1.0, libcurl/7.51.0-DEV)",
+								"type": "text"
+							},
+							{
+								"key": "Accept",
+								"value": "*/*",
+								"type": "text"
+							},
+							{
+								"key": "Accept-Encoding",
+								"value": "identity",
+								"type": "text"
+							},
+							{
+								"key": "X-Unity-Version",
+								"value": "2018.1.0f2",
+								"type": "text"
+							},
+							{
+								"key": "Cookie",
+								"value": "{{cookie}}",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "name",
+									"value": "ztestcreatedarea",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "http://app.anyland.com/area",
+							"protocol": "http",
+							"host": [
+								"app",
+								"anyland",
+								"com"
+							],
+							"path": [
+								"area"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "People",
+			"item": [
+				{
+					"name": "GetFriendsByStrength",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"type": "text",
+								"value": "application/x-www-form-urlencoded"
+							},
+							{
+								"key": "User-Agent",
+								"type": "text",
+								"value": "UnityPlayer/2018.1.0f2 (UnityWebRequest/1.0, libcurl/7.51.0-DEV)"
+							},
+							{
+								"key": "Accept",
+								"type": "text",
+								"value": "*/*"
+							},
+							{
+								"key": "Accept-Encoding",
+								"type": "text",
+								"value": "identity"
+							},
+							{
+								"key": "X-Unity-Version",
+								"type": "text",
+								"value": "2018.1.0f2"
+							},
+							{
+								"key": "Cookie",
+								"value": "{{cookie}}",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "http://app.anyland.com/person/friendsbystr",
+							"protocol": "http",
+							"host": [
+								"app",
+								"anyland",
+								"com"
+							],
+							"path": [
+								"person",
+								"friendsbystr"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GetPersonInfoBasic",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"type": "text",
+								"value": "application/x-www-form-urlencoded"
+							},
+							{
+								"key": "User-Agent",
+								"type": "text",
+								"value": "UnityPlayer/2018.1.0f2 (UnityWebRequest/1.0, libcurl/7.51.0-DEV)"
+							},
+							{
+								"key": "Accept",
+								"type": "text",
+								"value": "*/*"
+							},
+							{
+								"key": "Accept-Encoding",
+								"type": "text",
+								"value": "identity"
+							},
+							{
+								"key": "X-Unity-Version",
+								"type": "text",
+								"value": "2018.1.0f2"
+							},
+							{
+								"key": "Cookie",
+								"value": "{{cookie}}",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "areaId",
+									"value": "5b6686c83204100709bb4be4",
+									"type": "text"
+								},
+								{
+									"key": "userId",
+									"value": "5879f9ad33b97746132908fc",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "http://app.anyland.com/person/infobasic",
+							"protocol": "http",
+							"host": [
+								"app",
+								"anyland",
+								"com"
+							],
+							"path": [
+								"person",
+								"infobasic"
+							]
+						},
+						"description": "Appears to run every 15 seconds"
+					},
+					"response": []
+				},
+				{
+					"name": "UpdateAttachment",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"type": "text",
+								"value": "application/x-www-form-urlencoded"
+							},
+							{
+								"key": "User-Agent",
+								"type": "text",
+								"value": "UnityPlayer/2018.1.0f2 (UnityWebRequest/1.0, libcurl/7.51.0-DEV)"
+							},
+							{
+								"key": "Accept",
+								"type": "text",
+								"value": "*/*"
+							},
+							{
+								"key": "Accept-Encoding",
+								"type": "text",
+								"value": "identity"
+							},
+							{
+								"key": "X-Unity-Version",
+								"type": "text",
+								"value": "2018.1.0f2"
+							},
+							{
+								"key": "Cookie",
+								"type": "text",
+								"value": "{{cookie}}"
+							}
+						],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "id",
+									"value": "0",
+									"type": "text"
+								},
+								{
+									"key": "data",
+									"value": "",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "http://app.anyland.com/person/updateattachment",
+							"protocol": "http",
+							"host": [
+								"app",
+								"anyland",
+								"com"
+							],
+							"path": [
+								"person",
+								"updateattachment"
+							]
+						},
+						"description": "Appears to run every 15 seconds"
+					},
+					"response": []
+				},
+				{
+					"name": "GetPersonInfo",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"type": "text",
+								"value": "application/x-www-form-urlencoded"
+							},
+							{
+								"key": "User-Agent",
+								"type": "text",
+								"value": "UnityPlayer/2018.1.0f2 (UnityWebRequest/1.0, libcurl/7.51.0-DEV)"
+							},
+							{
+								"key": "Accept",
+								"type": "text",
+								"value": "*/*"
+							},
+							{
+								"key": "Accept-Encoding",
+								"type": "text",
+								"value": "identity"
+							},
+							{
+								"key": "X-Unity-Version",
+								"type": "text",
+								"value": "2018.1.0f2"
+							},
+							{
+								"key": "Cookie",
+								"type": "text",
+								"value": "{{cookie}}"
+							}
+						],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "areaId",
+									"value": "5b6686c83204100709bb4be4",
+									"type": "text"
+								},
+								{
+									"key": "userId",
+									"value": "5879f9ad33b97746132908fc",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "http://app.anyland.com/person/info",
+							"protocol": "http",
+							"host": [
+								"app",
+								"anyland",
+								"com"
+							],
+							"path": [
+								"person",
+								"info"
+							]
+						},
+						"description": "Appears to run every 15 seconds"
+					},
+					"response": []
+				},
+				{
+					"name": "GetPersonFlagStatus",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"type": "text",
+								"value": "application/x-www-form-urlencoded"
+							},
+							{
+								"key": "User-Agent",
+								"type": "text",
+								"value": "UnityPlayer/2018.1.0f2 (UnityWebRequest/1.0, libcurl/7.51.0-DEV)"
+							},
+							{
+								"key": "Accept",
+								"type": "text",
+								"value": "*/*"
+							},
+							{
+								"key": "Accept-Encoding",
+								"type": "text",
+								"value": "identity"
+							},
+							{
+								"key": "X-Unity-Version",
+								"type": "text",
+								"value": "2018.1.0f2"
+							},
+							{
+								"key": "Cookie",
+								"type": "text",
+								"value": "{{cookie}}"
+							}
+						],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "id",
+									"value": "5879f9ad33b97746132908fc",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "http://app.anyland.com/person/getflag",
+							"protocol": "http",
+							"host": [
+								"app",
+								"anyland",
+								"com"
+							],
+							"path": [
+								"person",
+								"getflag"
+							]
+						},
+						"description": "Appears to run every 15 seconds"
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Misc",
+			"item": [
+				{
+					"name": "PollServer",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"value": "application/x-www-form-urlencoded",
+								"type": "text"
+							},
+							{
+								"key": "User-Agent",
+								"value": "UnityPlayer/2018.1.0f2 (UnityWebRequest/1.0, libcurl/7.51.0-DEV)",
+								"type": "text"
+							},
+							{
+								"key": "Accept",
+								"value": "*/*",
+								"type": "text"
+							},
+							{
+								"key": "Accept-Encoding",
+								"value": "identity",
+								"type": "text"
+							},
+							{
+								"key": "X-Unity-Version",
+								"value": "2018.1.0f2",
+								"type": "text"
+							},
+							{
+								"key": "Cookie",
+								"value": "{{cookie}}",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "areaId",
+									"value": "5a923c5bff4ade85133a430b",
+									"type": "text",
+									"disabled": true
+								}
+							]
+						},
+						"url": {
+							"raw": "http://app.anyland.com/p",
+							"protocol": "http",
+							"host": [
+								"app",
+								"anyland",
+								"com"
+							],
+							"path": [
+								"p"
+							]
+						},
+						"description": "Appears to run every 15 seconds"
+					},
+					"response": []
+				},
+				{
+					"name": "StartEditToolsTrial",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"type": "text",
+								"value": "application/x-www-form-urlencoded"
+							},
+							{
+								"key": "User-Agent",
+								"type": "text",
+								"value": "UnityPlayer/2018.1.0f2 (UnityWebRequest/1.0, libcurl/7.51.0-DEV)"
+							},
+							{
+								"key": "Accept",
+								"type": "text",
+								"value": "*/*"
+							},
+							{
+								"key": "Accept-Encoding",
+								"type": "text",
+								"value": "identity"
+							},
+							{
+								"key": "X-Unity-Version",
+								"type": "text",
+								"value": "2018.1.0f2"
+							},
+							{
+								"key": "Cookie",
+								"type": "text",
+								"value": "{{cookie}}"
+							}
+						],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": []
+						},
+						"url": {
+							"raw": "http://app.anyland.com/extras/startedittoolstrial",
+							"protocol": "http",
+							"host": [
+								"app",
+								"anyland",
+								"com"
+							],
+							"path": [
+								"extras",
+								"startedittoolstrial"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "User",
+			"item": [
+				{
+					"name": "StartAuthenticatedSession",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"value": "application/x-www-form-urlencoded",
+								"type": "text"
+							},
+							{
+								"key": "User-Agent",
+								"value": "UnityPlayer/2018.1.0f2 (UnityWebRequest/1.0, libcurl/7.51.0-DEV)",
+								"type": "text"
+							},
+							{
+								"key": "Accept",
+								"value": "*/*",
+								"type": "text"
+							},
+							{
+								"key": "Accept-Encoding",
+								"value": "identity",
+								"type": "text"
+							},
+							{
+								"key": "X-Unity-Version",
+								"value": "2018.1.0f2",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "authProvider",
+									"value": "STEAM",
+									"type": "text"
+								},
+								{
+									"key": "ast",
+									"value": "{{ast}}",
+									"description": "Needs to be captured from ast",
+									"type": "text"
+								},
+								{
+									"key": "os",
+									"value": "Windows 10  (10.0.0) 64bit",
+									"type": "text"
+								},
+								{
+									"key": "vrModelName",
+									"value": "Oculus Rift CV1",
+									"type": "text"
+								},
+								{
+									"key": "clientVersion",
+									"value": "171.23",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "http://app.anyland.com/auth/start",
+							"protocol": "http",
+							"host": [
+								"app",
+								"anyland",
+								"com"
+							],
+							"path": [
+								"auth",
+								"start"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "RegisterUsageMode",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"type": "text",
+								"value": "application/x-www-form-urlencoded"
+							},
+							{
+								"key": "User-Agent",
+								"type": "text",
+								"value": "UnityPlayer/2018.1.0f2 (UnityWebRequest/1.0, libcurl/7.51.0-DEV)"
+							},
+							{
+								"key": "Accept",
+								"type": "text",
+								"value": "*/*"
+							},
+							{
+								"key": "Accept-Encoding",
+								"type": "text",
+								"value": "identity"
+							},
+							{
+								"key": "X-Unity-Version",
+								"type": "text",
+								"value": "2018.1.0f2"
+							},
+							{
+								"key": "Cookie",
+								"value": "{{cookie}}",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "inDesktopMode",
+									"value": "True",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "http://app.anyland.com/person/registerusagemode",
+							"protocol": "http",
+							"host": [
+								"app",
+								"anyland",
+								"com"
+							],
+							"path": [
+								"person",
+								"registerusagemode"
+							],
+							"query": [
+								{
+									"key": "",
+									"value": ""
+								}
+							]
+						},
+						"description": "Only sends when you switch into desktop mode. Need to test if sends when you switch back to VR mode"
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Things",
+			"item": [
+				{
+					"name": "GetTopThingIdsCreatedByPerson",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"value": "application/x-www-form-urlencoded",
+								"type": "text"
+							},
+							{
+								"key": "User-Agent",
+								"type": "text",
+								"value": "UnityPlayer/2018.1.0f2 (UnityWebRequest/1.0, libcurl/7.51.0-DEV)"
+							},
+							{
+								"key": "Accept",
+								"type": "text",
+								"value": "*/*"
+							},
+							{
+								"key": "Accept-Encoding",
+								"type": "text",
+								"value": "identity"
+							},
+							{
+								"key": "X-Unity-Version",
+								"type": "text",
+								"value": "2018.1.0f2"
+							},
+							{
+								"key": "Cookie",
+								"value": "{{cookie}}",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "id",
+									"value": "5a923c5bff4ade85133a430a",
+									"description": "Person ID",
+									"type": "text"
+								},
+								{
+									"key": "limit",
+									"value": "10",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "http://app.anyland.com/thing/topby",
+							"protocol": "http",
+							"host": [
+								"app",
+								"anyland",
+								"com"
+							],
+							"path": [
+								"thing",
+								"topby"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "DeletePlacement",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"type": "text",
+								"value": "application/x-www-form-urlencoded"
+							},
+							{
+								"key": "User-Agent",
+								"type": "text",
+								"value": "UnityPlayer/2018.1.0f2 (UnityWebRequest/1.0, libcurl/7.51.0-DEV)"
+							},
+							{
+								"key": "Accept",
+								"type": "text",
+								"value": "*/*"
+							},
+							{
+								"key": "Accept-Encoding",
+								"type": "text",
+								"value": "identity"
+							},
+							{
+								"key": "X-Unity-Version",
+								"type": "text",
+								"value": "2018.1.0f2"
+							},
+							{
+								"key": "Cookie",
+								"value": "{{cookie}}",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "areaId",
+									"value": "5b514e2b3584c554195d2524",
+									"description": "Person ID",
+									"type": "text"
+								},
+								{
+									"key": "placementId",
+									"value": "5d79d3b2ef48dd2a78d2067d",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "http://app.anyland.com/placement/delete",
+							"protocol": "http",
+							"host": [
+								"app",
+								"anyland",
+								"com"
+							],
+							"path": [
+								"placement",
+								"delete"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GetThing (Create/Update)",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"type": "text",
+								"value": "application/x-www-form-urlencoded"
+							},
+							{
+								"key": "User-Agent",
+								"type": "text",
+								"value": "UnityPlayer/2018.1.0f2 (UnityWebRequest/1.0, libcurl/7.51.0-DEV)"
+							},
+							{
+								"key": "Accept",
+								"type": "text",
+								"value": "*/*"
+							},
+							{
+								"key": "Accept-Encoding",
+								"type": "text",
+								"value": "identity"
+							},
+							{
+								"key": "X-Unity-Version",
+								"type": "text",
+								"value": "2018.1.0f2"
+							},
+							{
+								"key": "Cookie",
+								"type": "text",
+								"value": "{{cookie}}"
+							}
+						],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "definition",
+									"value": "{\"n\":\"ground\",\"v\":9,\"a\":[1],\"p\":[{\"b\":17,\"s\":[{\"p\":[0,0,0],\"r\":[0,0,0],\"s\":[3.363346,0.11062,3.201102],\"c\":[0.9019608,0.8509804,0.7215686]}]}]}",
+									"type": "text"
+								},
+								{
+									"key": "vertexCount",
+									"value": "24",
+									"type": "text"
+								},
+								{
+									"key": "clonedFromId",
+									"value": "",
+									"description": "Optional",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "http://app.anyland.com/thing",
+							"protocol": "http",
+							"host": [
+								"app",
+								"anyland",
+								"com"
+							],
+							"path": [
+								"thing"
+							]
+						},
+						"description": "Triggered when you create a new thing, immediately followed by NewPlacement"
+					},
+					"response": []
+				},
+				{
+					"name": "UpdatePlacement",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"type": "text",
+								"value": "application/x-www-form-urlencoded"
+							},
+							{
+								"key": "User-Agent",
+								"type": "text",
+								"value": "UnityPlayer/2018.1.0f2 (UnityWebRequest/1.0, libcurl/7.51.0-DEV)"
+							},
+							{
+								"key": "Accept",
+								"type": "text",
+								"value": "*/*"
+							},
+							{
+								"key": "Accept-Encoding",
+								"type": "text",
+								"value": "identity"
+							},
+							{
+								"key": "X-Unity-Version",
+								"type": "text",
+								"value": "2018.1.0f2"
+							},
+							{
+								"key": "Cookie",
+								"type": "text",
+								"value": "{{cookie}}"
+							}
+						],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "areaId",
+									"value": "5b514e2b3584c554195d2524",
+									"type": "text"
+								},
+								{
+									"key": "placement",
+									"value": "{\"Id\":\"5b6647ddef48dd0690d48167\",\"Tid\":\"5d79d6fc06579920a9bc887e\",\"P\":{\"x\":0.27347198128700259,\"y\":1.684160590171814,\"z\":3.8908023834228517},\"R\":{\"x\":90.0,\"y\":90.00000762939453,\"z\":0.0},\"S\":1.0,\"A\":[],\"D\":0.0}",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "http://app.anyland.com/placement/update",
+							"protocol": "http",
+							"host": [
+								"app",
+								"anyland",
+								"com"
+							],
+							"path": [
+								"placement",
+								"update"
+							]
+						},
+						"description": "Preceeded by GetThing"
+					},
+					"response": []
+				},
+				{
+					"name": "NewPlacement",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"type": "text",
+								"value": "application/x-www-form-urlencoded"
+							},
+							{
+								"key": "User-Agent",
+								"type": "text",
+								"value": "UnityPlayer/2018.1.0f2 (UnityWebRequest/1.0, libcurl/7.51.0-DEV)"
+							},
+							{
+								"key": "Accept",
+								"type": "text",
+								"value": "*/*"
+							},
+							{
+								"key": "Accept-Encoding",
+								"type": "text",
+								"value": "identity"
+							},
+							{
+								"key": "X-Unity-Version",
+								"type": "text",
+								"value": "2018.1.0f2"
+							},
+							{
+								"key": "Cookie",
+								"value": "{{cookie}}",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "areaId",
+									"value": "5b514e2b3584c554195d2524",
+									"description": "Person ID",
+									"type": "text"
+								},
+								{
+									"key": "placement",
+									"value": "{\"Id\":\"5d79d461ef48dd2a78d2067e\",\"Tid\":\"5d79d461d21bd90630d4cdab\",\"P\":{\"x\":0.0,\"y\":0.0,\"z\":0.0},\"R\":{\"x\":0.0,\"y\":0.0,\"z\":0.0},\"S\":1.0,\"A\":[],\"D\":0.0}",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "http://app.anyland.com/placement/new",
+							"protocol": "http",
+							"host": [
+								"app",
+								"anyland",
+								"com"
+							],
+							"path": [
+								"placement",
+								"new"
+							]
+						},
+						"description": "Preceeded by GetThing"
+					},
+					"response": []
+				},
+				{
+					"name": "GetPlacementInfo",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"type": "text",
+								"value": "application/x-www-form-urlencoded"
+							},
+							{
+								"key": "User-Agent",
+								"type": "text",
+								"value": "UnityPlayer/2018.1.0f2 (UnityWebRequest/1.0, libcurl/7.51.0-DEV)"
+							},
+							{
+								"key": "Accept",
+								"type": "text",
+								"value": "*/*"
+							},
+							{
+								"key": "Accept-Encoding",
+								"type": "text",
+								"value": "identity"
+							},
+							{
+								"key": "X-Unity-Version",
+								"type": "text",
+								"value": "2018.1.0f2"
+							},
+							{
+								"key": "Cookie",
+								"type": "text",
+								"value": "{{cookie}}"
+							}
+						],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "areaId",
+									"value": "5b514e2b3584c554195d2524",
+									"description": "Person ID",
+									"type": "text"
+								},
+								{
+									"key": "placementId",
+									"value": "5b6647ddef48dd0690d48167",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "http://app.anyland.com/placement/info",
+							"protocol": "http",
+							"host": [
+								"app",
+								"anyland",
+								"com"
+							],
+							"path": [
+								"placement",
+								"info"
+							]
+						},
+						"description": "Immediately followed by GetThingInfo"
+					},
+					"response": []
+				},
+				{
+					"name": "GetThingInfo",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"value": "application/x-www-form-urlencoded",
+								"type": "text"
+							},
+							{
+								"key": "User-Agent",
+								"type": "text",
+								"value": "UnityPlayer/2018.1.0f2 (UnityWebRequest/1.0, libcurl/7.51.0-DEV)"
+							},
+							{
+								"key": "Accept",
+								"type": "text",
+								"value": "*/*"
+							},
+							{
+								"key": "Accept-Encoding",
+								"type": "text",
+								"value": "identity"
+							},
+							{
+								"key": "X-Unity-Version",
+								"type": "text",
+								"value": "2018.1.0f2"
+							},
+							{
+								"key": "Cookie",
+								"type": "text",
+								"value": "{{cookie}}"
+							}
+						],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": []
+						},
+						"url": {
+							"raw": "http://app.anyland.com/thing/info/5b66849192a6f84ac0a7c542",
+							"protocol": "http",
+							"host": [
+								"app",
+								"anyland",
+								"com"
+							],
+							"path": [
+								"thing",
+								"info",
+								"5b66849192a6f84ac0a7c542"
+							]
+						},
+						"description": "Immediately followed by GetThingFlagStatus"
+					},
+					"response": []
+				},
+				{
+					"name": "GetThingFlagStatus",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"type": "text",
+								"value": "application/x-www-form-urlencoded"
+							},
+							{
+								"key": "User-Agent",
+								"type": "text",
+								"value": "UnityPlayer/2018.1.0f2 (UnityWebRequest/1.0, libcurl/7.51.0-DEV)"
+							},
+							{
+								"key": "Accept",
+								"type": "text",
+								"value": "*/*"
+							},
+							{
+								"key": "Accept-Encoding",
+								"type": "text",
+								"value": "identity"
+							},
+							{
+								"key": "X-Unity-Version",
+								"type": "text",
+								"value": "2018.1.0f2"
+							},
+							{
+								"key": "Cookie",
+								"type": "text",
+								"value": "{{cookie}}"
+							}
+						],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "id",
+									"value": "5b66480005fd724b8fdcf919",
+									"description": "Person ID",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "http://app.anyland.com/thing/getflag",
+							"protocol": "http",
+							"host": [
+								"app",
+								"anyland",
+								"com"
+							],
+							"path": [
+								"thing",
+								"getflag"
+							]
+						},
+						"description": "Immediately followed by GetThingInfo"
+					},
+					"response": []
+				},
+				{
+					"name": "GetThingDefinition",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"type": "text",
+								"value": "application/x-www-form-urlencoded"
+							},
+							{
+								"key": "User-Agent",
+								"type": "text",
+								"value": "UnityPlayer/2018.1.0f2 (UnityWebRequest/1.0, libcurl/7.51.0-DEV)"
+							},
+							{
+								"key": "Accept",
+								"type": "text",
+								"value": "*/*"
+							},
+							{
+								"key": "Accept-Encoding",
+								"type": "text",
+								"value": "identity"
+							},
+							{
+								"key": "X-Unity-Version",
+								"type": "text",
+								"value": "2018.1.0f2"
+							},
+							{
+								"key": "Cookie",
+								"type": "text",
+								"value": "{{cookie}}"
+							}
+						],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": []
+						},
+						"url": {
+							"raw": "http://app.anyland.com/sl/tdef/5b66480005fd724b8fdcf919",
+							"protocol": "http",
+							"host": [
+								"app",
+								"anyland",
+								"com"
+							],
+							"path": [
+								"sl",
+								"tdef",
+								"5b66480005fd724b8fdcf919"
+							]
+						},
+						"description": "Immediately followed by GetThingInfo"
+					},
+					"response": []
+				},
+				{
+					"name": "GetThingDefinitionAreaBundle",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"type": "text",
+								"value": "application/x-www-form-urlencoded"
+							},
+							{
+								"key": "User-Agent",
+								"type": "text",
+								"value": "UnityPlayer/2018.1.0f2 (UnityWebRequest/1.0, libcurl/7.51.0-DEV)"
+							},
+							{
+								"key": "Accept",
+								"type": "text",
+								"value": "*/*"
+							},
+							{
+								"key": "Accept-Encoding",
+								"type": "text",
+								"value": "identity"
+							},
+							{
+								"key": "X-Unity-Version",
+								"type": "text",
+								"value": "2018.1.0f2"
+							},
+							{
+								"key": "Cookie",
+								"type": "text",
+								"value": "{{cookie}}"
+							}
+						],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": []
+						},
+						"url": {
+							"raw": "http://anyland-tdefbdl.manyland.netdna-cdn.com/5a923c5bff4ade85133a430b/rr5b5fb45e2f39cc1edcf4ea84",
+							"protocol": "http",
+							"host": [
+								"anyland-tdefbdl",
+								"manyland",
+								"netdna-cdn",
+								"com"
+							],
+							"path": [
+								"5a923c5bff4ade85133a430b",
+								"rr5b5fb45e2f39cc1edcf4ea84"
+							]
+						},
+						"description": "Immediately followed by GetThingInfo"
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}

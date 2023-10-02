@@ -1,0 +1,9 @@
+curl --location 'http://app.anyland.com/placement/delete' \
+--header 'Content-Type: application/x-www-form-urlencoded' \
+--header 'User-Agent: UnityPlayer/2018.1.0f2 (UnityWebRequest/1.0, libcurl/7.51.0-DEV)' \
+--header 'Accept: */*' \
+--header 'Accept-Encoding: identity' \
+--header 'X-Unity-Version: 2018.1.0f2' \
+--header 'Cookie: {{cookie}}' \
+--data-urlencode 'areaId=5b514e2b3584c554195d2524' \
+--data-urlencode 'placementId=5d79d3b2ef48dd2a78d2067d'

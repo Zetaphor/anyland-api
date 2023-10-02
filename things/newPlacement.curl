@@ -1,0 +1,9 @@
+curl --location 'http://app.anyland.com/placement/new' \
+--header 'Content-Type: application/x-www-form-urlencoded' \
+--header 'User-Agent: UnityPlayer/2018.1.0f2 (UnityWebRequest/1.0, libcurl/7.51.0-DEV)' \
+--header 'Accept: */*' \
+--header 'Accept-Encoding: identity' \
+--header 'X-Unity-Version: 2018.1.0f2' \
+--header 'Cookie: {{cookie}}' \
+--data-urlencode 'areaId=5b514e2b3584c554195d2524' \
+--data-urlencode 'placement={"Id":"5d79d461ef48dd2a78d2067e","Tid":"5d79d461d21bd90630d4cdab","P":{"x":0.0,"y":0.0,"z":0.0},"R":{"x":0.0,"y":0.0,"z":0.0},"S":1.0,"A":[],"D":0.0}'

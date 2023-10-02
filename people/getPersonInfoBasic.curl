@@ -1,0 +1,9 @@
+curl --location 'http://app.anyland.com/person/infobasic' \
+--header 'Content-Type: application/x-www-form-urlencoded' \
+--header 'User-Agent: UnityPlayer/2018.1.0f2 (UnityWebRequest/1.0, libcurl/7.51.0-DEV)' \
+--header 'Accept: */*' \
+--header 'Accept-Encoding: identity' \
+--header 'X-Unity-Version: 2018.1.0f2' \
+--header 'Cookie: {{cookie}}' \
+--data-urlencode 'areaId=5b6686c83204100709bb4be4' \
+--data-urlencode 'userId=5879f9ad33b97746132908fc'

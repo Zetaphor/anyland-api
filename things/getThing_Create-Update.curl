@@ -1,0 +1,10 @@
+curl --location 'http://app.anyland.com/thing' \
+--header 'Content-Type: application/x-www-form-urlencoded' \
+--header 'User-Agent: UnityPlayer/2018.1.0f2 (UnityWebRequest/1.0, libcurl/7.51.0-DEV)' \
+--header 'Accept: */*' \
+--header 'Accept-Encoding: identity' \
+--header 'X-Unity-Version: 2018.1.0f2' \
+--header 'Cookie: {{cookie}}' \
+--data-urlencode 'definition={"n":"ground","v":9,"a":[1],"p":[{"b":17,"s":[{"p":[0,0,0],"r":[0,0,0],"s":[3.363346,0.11062,3.201102],"c":[0.9019608,0.8509804,0.7215686]}]}]}' \
+--data-urlencode 'vertexCount=24' \
+--data-urlencode 'clonedFromId='

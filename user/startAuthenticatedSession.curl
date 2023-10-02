@@ -1,0 +1,11 @@
+curl --location 'http://app.anyland.com/auth/start' \
+--header 'Content-Type: application/x-www-form-urlencoded' \
+--header 'User-Agent: UnityPlayer/2018.1.0f2 (UnityWebRequest/1.0, libcurl/7.51.0-DEV)' \
+--header 'Accept: */*' \
+--header 'Accept-Encoding: identity' \
+--header 'X-Unity-Version: 2018.1.0f2' \
+--data-urlencode 'authProvider=STEAM' \
+--data-urlencode 'ast={{ast}}' \
+--data-urlencode 'os=Windows 10  (10.0.0) 64bit' \
+--data-urlencode 'vrModelName=Oculus Rift CV1' \
+--data-urlencode 'clientVersion=171.23'
