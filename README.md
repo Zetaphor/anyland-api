@@ -11,3 +11,7 @@ These requests are all in cURL format, which were manually exported from my Post
 https://www.postman.com/solar-spaceship-436264/workspace/anyland/folder/418303-b480071a-6d95-473b-9684-a3575d44c7dc
 
 I've also included the export Postman collections for convenience.
+
+This also includes a working collection for [Bruno](https://github.com/usebruno/bruno) which is preferred over Postman. The Postman collection will not be updated going forward.
+
+In addition to the cURL requests are saved JSON responses from the server, so we can eventually work on a custom server.
