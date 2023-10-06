@@ -1,0 +1,175 @@
+{
+  "areas": [
+    {
+      "name": "null test lab",
+      "description": "play some music dance your ass off!",
+      "id": "57f6e89bfcaa704054086fd6",
+      "playerCount": 0
+    },
+    {
+      "name": "testaea",
+      "id": "5898c197846e2a171086ea61",
+      "playerCount": 0
+    },
+    {
+      "name": "temple of test",
+      "id": "5aaaad984c81391637271084",
+      "playerCount": 0
+    },
+    {
+      "name": "fantasytest",
+      "id": "588a867569b2d89713de6a2e",
+      "playerCount": 0
+    },
+    {
+      "name": "quest test",
+      "id": "5c45db15da89d12f3d9d70ac",
+      "playerCount": 0
+    },
+    {
+      "name": "bubly test world",
+      "id": "615a3c91a3d9d21bd270206c",
+      "playerCount": 0
+    },
+    {
+      "name": "mrz testing",
+      "id": "6517f1f37de4d7265f32cff0",
+      "playerCount": 0
+    },
+    {
+      "name": "test studio",
+      "id": "5c02d6330c7e4e63ff0b5008",
+      "playerCount": 0
+    },
+    {
+      "name": "navitest",
+      "id": "64aa87446dded147216a03cc",
+      "playerCount": 0
+    },
+    {
+      "name": "jacks testing place",
+      "id": "5d9e16f8fc66db062558866f",
+      "playerCount": 0
+    },
+    {
+      "name": "b0bs test area",
+      "id": "57fa990f2c6c056b120d454e",
+      "playerCount": 0
+    },
+    {
+      "name": "drumstick's testing place",
+      "description": "archives, mostly",
+      "id": "5d93916865465a0628d17ed4",
+      "playerCount": 0
+    },
+    {
+      "name": "testing, soda",
+      "id": "5c9c14c22ceadd65e1667da1",
+      "playerCount": 0
+    },
+    {
+      "name": "evt-raptor 1 test facility",
+      "description": "come pilot mechs",
+      "id": "5a4a1b1b5a20c0a7138d9e39",
+      "playerCount": 0
+    },
+    {
+      "name": "lounge tester",
+      "description": "my lounge in r.l in v.r",
+      "id": "57fed04746c85489135daac9",
+      "playerCount": 0
+    },
+    {
+      "name": "unspeakable horrors testing facility",
+      "id": "5a5d590c13af798f1326fff8",
+      "playerCount": 0
+    },
+    {
+      "name": "the rice bowl",
+      "description": "a place i test things that need testing",
+      "id": "59583e7da232542a100a6474",
+      "playerCount": 0
+    },
+    {
+      "name": "soda's testing zone",
+      "id": "5ce30ad689ab53055a15896f",
+      "playerCount": 0
+    },
+    {
+      "name": "avatar testing 2",
+      "id": "5a304118d6cee42a10e2898c",
+      "playerCount": 0
+    },
+    {
+      "name": "underwater test",
+      "id": "5893a461dfad2e71616ed60a",
+      "playerCount": 0
+    },
+    {
+      "name": "testbed",
+      "description": "a whole slew of just simple testing",
+      "id": "58479892ebe55fd10917b7ac",
+      "playerCount": 0
+    },
+    {
+      "name": "testing ground",
+      "id": "59232474edb35c2b10cc0f72",
+      "playerCount": 0
+    },
+    {
+      "name": "weapons testing & development",
+      "id": "5aa0435a01cd6c7c91f07389",
+      "playerCount": 0
+    },
+    {
+      "name": "gun word test",
+      "id": "5ccdd1319991c2055dd37eaa",
+      "playerCount": 0
+    },
+    {
+      "name": "brick test",
+      "id": "58ffc9ba2267445e42ab6812",
+      "playerCount": 0
+    },
+    {
+      "name": "crafting test",
+      "id": "5c35064f6e3e726e4f8988db",
+      "playerCount": 0
+    },
+    {
+      "name": "map testing v1",
+      "id": "59e04ffa278a891e48f0777c",
+      "playerCount": 0
+    },
+    {
+      "name": "environment light test",
+      "id": "58cb82bbed93dd92138bf15a",
+      "playerCount": 0
+    },
+    {
+      "name": "gravitygun test",
+      "id": "58693e3a88e9b46514a2f877",
+      "playerCount": 0
+    },
+    {
+      "name": "home 1523",
+      "description": "test and show room",
+      "id": "580bb1475f83057137504aa7",
+      "playerCount": 0
+    }
+  ],
+  "ownPrivateAreas": [
+    {
+      "_id": "5d983611288c857ffcc86370",
+      "name": "ztestcreatedarea"
+    },
+    {
+      "_id": "5b7ce29fb9cf95490d936a60",
+      "name": "test ring"
+    },
+    {
+      "_id": "5d8efd84309ea4392c5a8048",
+      "name": "web-test"
+    }
+  ]
+}
