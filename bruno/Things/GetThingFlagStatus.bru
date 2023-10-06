@@ -1,0 +1,24 @@
+meta {
+  name: GetThingFlagStatus
+  type: http
+  seq: 8
+}
+
+post {
+  url: http://app.anyland.com/thing/getflag
+  body: formUrlEncoded
+  auth: none
+}
+
+headers {
+  Content-Type: application/x-www-form-urlencoded
+  User-Agent: UnityPlayer/2018.1.0f2 (UnityWebRequest/1.0, libcurl/7.51.0-DEV)
+  Accept: */*
+  Accept-Encoding: identity
+  X-Unity-Version: 2018.1.0f2
+  Cookie: {{cookie}}
+}
+
+body:form-urlencoded {
+  id: 5b66480005fd724b8fdcf919
+}

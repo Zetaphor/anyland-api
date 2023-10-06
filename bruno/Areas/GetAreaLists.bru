@@ -1,0 +1,25 @@
+meta {
+  name: GetAreaLists
+  type: http
+  seq: 4
+}
+
+post {
+  url: http://app.anyland.com/area/lists
+  body: formUrlEncoded
+  auth: none
+}
+
+headers {
+  Content-Type: application/x-www-form-urlencoded
+  User-Agent: UnityPlayer/2018.1.0f2 (UnityWebRequest/1.0, libcurl/7.51.0-DEV)
+  Accept: */*
+  Accept-Encoding: identity
+  X-Unity-Version: 2018.1.0f2
+  Cookie: {{cookie}}
+}
+
+body:form-urlencoded {
+  areaId: 5a923c5bff4ade85133a430b
+  isPrivate: False
+}

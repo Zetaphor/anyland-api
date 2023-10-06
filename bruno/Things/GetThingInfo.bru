@@ -1,0 +1,20 @@
+meta {
+  name: GetThingInfo
+  type: http
+  seq: 7
+}
+
+get {
+  url: http://app.anyland.com/thing/info/5b66849192a6f84ac0a7c542
+  body: formUrlEncoded
+  auth: none
+}
+
+headers {
+  Content-Type: application/x-www-form-urlencoded
+  User-Agent: UnityPlayer/2018.1.0f2 (UnityWebRequest/1.0, libcurl/7.51.0-DEV)
+  Accept: */*
+  Accept-Encoding: identity
+  X-Unity-Version: 2018.1.0f2
+  Cookie: {{cookie}}
+}

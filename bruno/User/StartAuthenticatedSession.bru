@@ -1,0 +1,27 @@
+meta {
+  name: StartAuthenticatedSession
+  type: http
+  seq: 1
+}
+
+post {
+  url: http://app.anyland.com/auth/start
+  body: formUrlEncoded
+  auth: none
+}
+
+headers {
+  Content-Type: application/x-www-form-urlencoded
+  User-Agent: UnityPlayer/2018.1.0f2 (UnityWebRequest/1.0, libcurl/7.51.0-DEV)
+  Accept: */*
+  Accept-Encoding: identity
+  X-Unity-Version: 2018.1.0f2
+}
+
+body:form-urlencoded {
+  authProvider: STEAM
+  ast: {{ast}}
+  os: Windows 10 (10.0.0) 64bit
+  vrModelName: Oculus Rift CV1
+  clientVersion: 171.23
+}

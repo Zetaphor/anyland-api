@@ -1,0 +1,26 @@
+meta {
+  name: GetThing (Create-Update)
+  type: http
+  seq: 3
+}
+
+post {
+  url: http://app.anyland.com/thing
+  body: formUrlEncoded
+  auth: none
+}
+
+headers {
+  Content-Type: application/x-www-form-urlencoded
+  User-Agent: UnityPlayer/2018.1.0f2 (UnityWebRequest/1.0, libcurl/7.51.0-DEV)
+  Accept: */*
+  Accept-Encoding: identity
+  X-Unity-Version: 2018.1.0f2
+  Cookie: {{cookie}}
+}
+
+body:form-urlencoded {
+  definition: {"n":"ground","v":9,"a":[1],"p":[{"b":17,"s":[{"p":[0,0,0],"r":[0,0,0],"s":[3.363346,0.11062,3.201102],"c":[0.9019608,0.8509804,0.7215686]}]}]}
+  vertexCount: 24
+  clonedFromId: 
+}

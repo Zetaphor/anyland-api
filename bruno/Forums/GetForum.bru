@@ -1,0 +1,20 @@
+meta {
+  name: GetForum
+  type: http
+  seq: 1
+}
+
+get {
+  url: http://app.anyland.com/forum/forum/5846f540e8593a971395c0aa
+  body: none
+  auth: none
+}
+
+headers {
+  Content-Type: application/x-www-form-urlencoded
+  User-Agent: UnityPlayer/2018.1.0f2 (UnityWebRequest/1.0, libcurl/7.51.0-DEV)
+  Accept: */*
+  Accept-Encoding: identity
+  X-Unity-Version: 2018.1.0f2
+  Cookie: {{cookie}}
+}
