@@ -1,12 +1,12 @@
 meta {
-  name: Favorites
+  name: Search Forum
   type: http
-  seq: 5
+  seq: 2
 }
 
-get {
-  url: http://app.anyland.com/forum/favorites
-  body: none
+post {
+  url: http://app.anyland.com/forum/search
+  body: formUrlEncoded
   auth: none
 }
 
@@ -17,4 +17,8 @@ headers {
   Accept-Encoding: identity
   X-Unity-Version: 2018.1.0f2
   Cookie: {{cookie}}
+}
+
+body:form-urlencoded {
+  searchTerm: philbox
 }
