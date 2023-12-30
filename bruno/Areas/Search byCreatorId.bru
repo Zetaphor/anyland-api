@@ -1,11 +1,11 @@
 meta {
-  name: CreateArea
+  name: Search byCreatorId
   type: http
-  seq: 8
+  seq: 3
 }
 
 post {
-  url: http://app.anyland.com/area
+  url: http://app.anyland.com/area/search
   body: formUrlEncoded
   auth: none
 }
@@ -20,5 +20,6 @@ headers {
 }
 
 body:form-urlencoded {
-  name: ztestcreatedarea
+  term: 
+  byCreatorId: 5a923c5bff4ade85133a430a
 }

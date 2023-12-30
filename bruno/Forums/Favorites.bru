@@ -1,12 +1,12 @@
 meta {
-  name: CreateArea
+  name: Favorites
   type: http
-  seq: 8
+  seq: 5
 }
 
-post {
-  url: http://app.anyland.com/area
-  body: formUrlEncoded
+get {
+  url: http://app.anyland.com/forum/favorites
+  body: none
   auth: none
 }
 
@@ -17,8 +17,4 @@ headers {
   Accept-Encoding: identity
   X-Unity-Version: 2018.1.0f2
   Cookie: {{cookie}}
-}
-
-body:form-urlencoded {
-  name: ztestcreatedarea
 }

@@ -1,11 +1,11 @@
 meta {
-  name: CreateArea
+  name: getReceived
   type: http
-  seq: 8
+  seq: 1
 }
 
 post {
-  url: http://app.anyland.com/area
+  url: http://app.anyland.com/gift/getreceived
   body: formUrlEncoded
   auth: none
 }
@@ -20,5 +20,5 @@ headers {
 }
 
 body:form-urlencoded {
-  name: ztestcreatedarea
+  userId: 5a923c5bff4ade85133a430a
 }
