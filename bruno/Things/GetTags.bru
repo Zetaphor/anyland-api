@@ -1,11 +1,11 @@
 meta {
-  name: LoadAreaByName
+  name: GetTags
   type: http
-  seq: 1
+  seq: 11
 }
 
 post {
-  url: http://app.anyland.com/area/load
+  url: http://app.anyland.com/thing/gettags
   body: formUrlEncoded
   auth: none
 }
@@ -20,6 +20,5 @@ headers {
 }
 
 body:form-urlencoded {
-  areaUrlName: ztestcreatedareaa
-  isPrivate: False
+  thingId: 5ac7368f080a5d136c52b801
 }
