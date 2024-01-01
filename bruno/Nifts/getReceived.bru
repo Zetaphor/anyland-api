@@ -1,11 +1,11 @@
 meta {
-  name: GetPersonFlagStatus
+  name: getReceived
   type: http
-  seq: 4
+  seq: 1
 }
 
 post {
-  url: http://app.anyland.com/person/getflag
+  url: http://app.anyland.com/gift/getreceived
   body: formUrlEncoded
   auth: none
 }
@@ -20,5 +20,5 @@ headers {
 }
 
 body:form-urlencoded {
-  id: 5879f9ad33b97746132908fc
+  userId: 5a923c5bff4ade85133a430a
 }

@@ -1,11 +1,11 @@
 meta {
-  name: GetPersonFlagStatus
+  name: Search Forum
   type: http
-  seq: 4
+  seq: 2
 }
 
 post {
-  url: http://app.anyland.com/person/getflag
+  url: http://app.anyland.com/forum/search
   body: formUrlEncoded
   auth: none
 }
@@ -20,5 +20,5 @@ headers {
 }
 
 body:form-urlencoded {
-  id: 5879f9ad33b97746132908fc
+  searchTerm: philbox
 }
