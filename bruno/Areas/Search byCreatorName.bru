@@ -1,11 +1,11 @@
 meta {
-  name: GetAreaLists
+  name: Search byCreatorName
   type: http
-  seq: 6
+  seq: 4
 }
 
 post {
-  url: http://app.anyland.com/area/lists
+  url: http://app.anyland.com/area/search
   body: formUrlEncoded
   auth: none
 }
@@ -20,6 +20,6 @@ headers {
 }
 
 body:form-urlencoded {
-  areaId: 5a923c5bff4ade85133a430b
-  isPrivate: False
+  term: 
+  byCreatorName: jinx
 }
